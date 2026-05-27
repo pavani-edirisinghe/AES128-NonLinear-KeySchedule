@@ -25,8 +25,8 @@
 # =============================================================================
 
 import random
-from standard_aes import key_expansion
-from modified_aes import modified_key_expansion
+from core.standard_aes import key_expansion
+from core.modified_aes import modified_key_expansion
 
 
 def bytes_to_bits(byte_list):
